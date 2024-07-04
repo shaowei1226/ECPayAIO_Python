@@ -3,7 +3,7 @@
 import importlib.util
 spec = importlib.util.spec_from_file_location(
     "ecpay_payment_sdk",
-    "/path/to/ecpay_payment_sdk.py"
+    "D:\ECpay\ECPayAIO_Python\sdk\ecpay_payment_sdk.py"
 )
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
